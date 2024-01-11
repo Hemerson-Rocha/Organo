@@ -1,0 +1,27 @@
+footer {
+    background-color: #6278F7;
+
+    .bg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 20vh;
+
+        div {
+            width: 10%;
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        >img {
+            height: 40%;
+        }
+
+        p{
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}
